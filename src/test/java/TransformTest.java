@@ -11,7 +11,7 @@ public class TransformTest {
     @Test
     public void testTransformVersion() {
         String kafkaClientVersion = "3.6.1";
-        assertEquals(isoConverter.version(), kafkaClientVersion);
+        assertEquals(kafkaClientVersion, isoConverter.version());
     }
 
 }
